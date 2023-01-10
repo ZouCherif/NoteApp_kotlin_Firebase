@@ -16,17 +16,17 @@ class Sign_up : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.toSignIn.setOnClickListener {
+        binding.ToLogin.setOnClickListener {
             val intent = Intent (this,Sign_in::class.java)
             startActivity(intent)
             finish()
         }
 
         firebaseAuth = FirebaseAuth.getInstance()
-        binding.SignUp.setOnClickListener{
+        binding.CreateAccount.setOnClickListener{
             val email = binding.email.text.toString()
             val pass = binding.password.text.toString()
-            val username = binding.username.text.toString()
+            val username = binding.Username.text.toString()
 
             if(email.isNotEmpty() && pass.isNotEmpty() && username.isNotEmpty()){
                 firebaseAuth.createUserWithEmailAndPassword(email, pass)
@@ -45,10 +45,8 @@ class Sign_up : AppCompatActivity() {
                 Toast.makeText(this, "empty fields are not allowed !!", Toast.LENGTH_LONG).show()
             }
         }
-
-
-
-
-
     }
+
+
+
 }
