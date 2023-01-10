@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About</string>
+    <string name="app_name">Notes</string>
+    <string name="avatar">Avatar</string>
+    <string name="back">Back</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="email_address">Email address</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="password"/>
+    <string name="pasword">Pasword</string>
+    <string name="profile">Profile</string>
+    <string name="save">Save</string>
+    <string name="save_changes">Save changes</string>
+    <string name="search">Search</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title">Title</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome</string>
+    <style name="Theme.Notes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+
+        
+
+        
+        <item name="android:statusBarColor">?attr/cardBackgroundColor</item>
+        
+    </style>
+</resources>

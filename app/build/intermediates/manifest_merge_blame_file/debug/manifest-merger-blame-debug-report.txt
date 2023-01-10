@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bdd.notes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:5:5-84:19
+12        android:allowBackup="true"
+12-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/macbookpro/.gradle/caches/transforms-3/0f8ed80c56f41b03a60474b00c4a3f80/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Notes" >
+22-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:13:9-43
+23        <activity
+23-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:15:9-21:20
+24            android:name="com.bdd.notes.Third"
+24-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:16:13-34
+25            android:exported="false" >
+25-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:17:13-37
+26            <meta-data
+26-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+27                android:name="android.app.lib_name"
+27-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+28                android:value="" />
+28-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+29        </activity>
+30        <activity
+30-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:22:9-28:20
+31            android:name="com.bdd.notes.Second"
+31-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:23:13-35
+32            android:exported="false" >
+32-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:24:13-37
+33            <meta-data
+33-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:29:9-35:20
+38            android:name="com.bdd.notes.Main_screen"
+38-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:30:13-40
+39            android:exported="false" >
+39-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:31:13-37
+40            <meta-data
+40-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:36:9-42:20
+45            android:name="com.bdd.notes.Sign_in"
+45-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:37:13-36
+46            android:exported="false" >
+46-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:38:13-37
+47            <meta-data
+47-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:43:9-49:20
+52            android:name="com.bdd.notes.Sign_up"
+52-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:44:13-36
+53            android:exported="false" >
+53-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:45:13-37
+54            <meta-data
+54-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:50:9-56:20
+59            android:name="com.bdd.notes.Add_note"
+59-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:51:13-37
+60            android:exported="false" >
+60-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:52:13-37
+61            <meta-data
+61-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+62                android:name="android.app.lib_name"
+62-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+63                android:value="" />
+63-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+64        </activity>
+65        <activity
+65-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:57:9-63:20
+66            android:name="com.bdd.notes.Profile"
+66-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:58:13-36
+67            android:exported="false" >
+67-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:59:13-37
+68            <meta-data
+68-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+69                android:name="android.app.lib_name"
+69-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+70                android:value="" />
+70-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+71        </activity>
+72        <activity
+72-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:64:9-70:20
+73            android:name="com.bdd.notes.Settings"
+73-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:65:13-37
+74            android:exported="false" >
+74-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:66:13-37
+75            <meta-data
+75-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+76                android:name="android.app.lib_name"
+76-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+77                android:value="" />
+77-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+78        </activity>
+79        <activity
+79-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:71:9-83:20
+80            android:name="com.bdd.notes.MainActivity"
+80-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:72:13-41
+81            android:exported="true" >
+81-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:73:13-36
+82            <intent-filter>
+82-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:74:13-78:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:75:17-69
+83-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:75:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:77:17-77
+85-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:77:27-74
+86            </intent-filter>
+87
+88            <meta-data
+88-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:18:13-20:36
+89                android:name="android.app.lib_name"
+89-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:19:17-52
+90                android:value="" />
+90-->/Users/macbookpro/Desktop/Notes/app/src/main/AndroidManifest.xml:20:17-33
+91        </activity>
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+95            android:authorities="com.bdd.notes.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/6aeb111524da2a17bbaeb94df1a3a9c2/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macbookpro/.gradle/caches/transforms-3/e43051e300a45fe76e022983ab19a1cb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macbookpro/.gradle/caches/transforms-3/e43051e300a45fe76e022983ab19a1cb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macbookpro/.gradle/caches/transforms-3/e43051e300a45fe76e022983ab19a1cb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+103        </provider>
+104    </application>
+105
+106</manifest>

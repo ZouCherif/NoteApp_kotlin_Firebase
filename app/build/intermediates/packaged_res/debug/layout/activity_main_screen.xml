@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/main_activity"
+tools:context=".Main_screen" >
+
+<ImageView
+    android:layout_width="51dp"
+    android:layout_height="50dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.102"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.163"
+    app:srcCompat="@drawable/search"
+    tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck"
+    android:contentDescription="TODO" />
+
+<EditText
+    android:layout_width="265dp"
+    android:layout_height="49dp"
+    android:backgroundTint="#FFFFFF"
+    android:ems="10"
+    android:hint="@string/search"
+    android:inputType="textEmailAddress"
+    android:textColorHint="#8B7197FF"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.611"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.163"
+    tools:ignore="TextContrastCheck"
+    android:autofillHints="" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/welcome"
+    android:textColor="#7197FF"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.254"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.076"
+    tools:ignore="TextContrastCheck" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="User"
+    android:textColor="#FFFFFF"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.66"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.076"
+    tools:ignore="HardcodedText,TextContrastCheck" />
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/Btn1"
+    android:layout_width="69dp"
+    android:layout_height="67dp"
+    android:background="@drawable/ic_baseline_subject_24"
+    android:rotationX="-180"
+    android:rotationY="-180"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.95"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.034"
+    tools:ignore="SpeakableTextPresentCheck" />
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/Add"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@drawable/add"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.953"
+    tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
