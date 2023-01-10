@@ -1,270 +1,190 @@
 [
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_third.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/third.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_add_note.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\add_note.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_start.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/start.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_sign_up.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\sign_up.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/xml_backup_rules.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_third.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_third.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\third.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_modifiy_note.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/modifiy_note.xml"
+        "merged": "com.bdd.notes.app-merged_res-31:/layout_activity_sign_up.xml.flat",
+        "source": "com.bdd.notes.app-main-33:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_add_note.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_add_note.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_avatars_accounts___man_male_people_person_shirt_hairstyle.png.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/avatars_accounts___man_male_people_person_shirt_hairstyle.png"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_female.png.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\female.png"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_wave2.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/wave2.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_ic_baseline_subject_24.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\ic_baseline_subject_24.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_modify_note.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\modify_note.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_signin1.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/signin1.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_dashboard.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\dashboard.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_add_note.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/add_note.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_layered_waves_haikei.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/layered_waves_haikei.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_main4.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_main4.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_first.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/first.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_first.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\first.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_add_note.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/add_note.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_dashboard.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/dashboard.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_ic_baseline_navigate_next_24.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\ic_baseline_navigate_next_24.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_select_avatar.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/select_avatar.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_ic_baseline_password_24.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/ic_baseline_password_24.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_search.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\search.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_add_note.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_add_note.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_sign_up.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/sign_up.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_settings.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\settings.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_ic_baseline_add_24.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/ic_baseline_add_24.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_select_avatar.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\select_avatar.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_ic_baseline_navigate_next_24.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/ic_baseline_navigate_next_24.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_ic_baseline_subject_24.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/ic_baseline_subject_24.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_modify_note.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/modify_note.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_add.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\add.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-pngs-21:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_modify_note.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\modify_note.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_avatars_accounts___man_male_people_person_shirt_hairstyle.png.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\avatars_accounts___man_male_people_person_shirt_hairstyle.png"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_search.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/search.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_main_screen.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_main_screen.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_mobile_note_list_amico.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/mobile_note_list_amico.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_sign_in.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\sign_in.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_sign_in.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/sign_in.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_select_avatar.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/select_avatar.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_main_screen.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_main_screen.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_main3.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_main3.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_profile.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\profile.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_svg2.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/svg2.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_main_activity.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\main_activity.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_second.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\second.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_second.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/second.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_second.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_ic_baseline_email_24.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/ic_baseline_email_24.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_select_avatar.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\select_avatar.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_avatar.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/avatar.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-pngs-26:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_settings.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/settings.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\drawable_avatar.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\drawable\\avatar.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_sign_up.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/sign_up.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.bdd.notes.app-merged_res-26:/layout_activity_sign_in.xml.flat",
-        "source": "com.bdd.notes.app-main-28:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_profile.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/profile.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_main_activity.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/main_activity.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_main.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_third.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_third.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_svg1.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/svg1.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_female.png.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/female.png"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_profile.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_profile.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_second.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_second.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_main2.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_main2.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_sign_up.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_sign_up.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_add.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/add.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_sign_in.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/sign_in.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_sign_in.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_sign_in.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_settings.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_settings.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_modify_note.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/modify_note.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_activity_main5.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/activity_main5.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/drawable_button.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/drawable/button.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/layout_profile.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/layout/profile.xml"
-    },
-    {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.4/com.bdd.notes.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-31:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-33:\\layout\\activity_sign_in.xml"
     }
 ]
