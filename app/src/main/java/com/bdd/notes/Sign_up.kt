@@ -33,7 +33,7 @@ class Sign_up : AppCompatActivity() {
                     .addOnSuccessListener {
                         firebaseAuth.currentUser?.sendEmailVerification()
                         //addUserToDB(username, email, firebaseAuth.currentUser?.uid!!)
-                        val intent = Intent(this, MainActivity::class.java)
+                        val intent = Intent(this, Sign_in::class.java)
                         startActivity(intent)
                         finish()
                     }
