@@ -45,8 +45,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordcontainer"
         android:layout_width="250dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="44dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="46dp"
         app:layout_constraintBottom_toTopOf="@+id/SignUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.72"
@@ -56,7 +56,7 @@
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:backgroundTint="#FFFFFF"
             android:inputType="textPassword"
             android:paddingStart="10dp"
@@ -73,20 +73,19 @@
         android:id="@+id/username"
         android:layout_width="243dp"
         android:layout_height="45dp"
-        android:layout_marginTop="472dp"
         android:autofillHints=""
         android:backgroundTint="#FFFFFF"
-        android:paddingHorizontal="10dp"
         android:hint="User Name"
         android:inputType="textEmailAddress"
+        android:paddingHorizontal="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.626"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071"
+        app:layout_constraintTop_toBottomOf="@+id/toSignIn"
+        app:layout_constraintVertical_bias="0.354"
         tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
