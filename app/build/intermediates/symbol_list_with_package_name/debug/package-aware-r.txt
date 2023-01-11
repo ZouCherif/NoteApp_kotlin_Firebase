@@ -2738,7 +2738,6 @@ id custom
 id customPanel
 id cut
 id dark
-id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2922,8 +2921,6 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
-id onAttachStateChangeListener
-id onDateChanged
 id onInterceptTouchReturnSwipe
 id outline
 id outward
@@ -3049,7 +3046,6 @@ id textView2
 id textView4
 id textView5
 id textView6
-id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
