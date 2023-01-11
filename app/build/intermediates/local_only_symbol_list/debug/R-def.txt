@@ -50,6 +50,7 @@ id ToRegister
 id ToRegisterContainer
 id Username
 id back
+id body
 id editTextTextEmailAddress3
 id editTextTextMultiLine
 id email
@@ -60,6 +61,7 @@ id next2
 id passtxt
 id password
 id passwordcontainer
+id savebtn
 id signin
 id start
 id textView
@@ -67,6 +69,7 @@ id textView2
 id textView4
 id textView5
 id textView6
+id title
 layout activity_add_note
 layout activity_main
 layout activity_main_screen

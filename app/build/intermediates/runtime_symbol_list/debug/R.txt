@@ -2818,6 +2818,7 @@ int id beginOnFirstDraw 0x7f0a0069
 int id beginning 0x7f0a006a
 int id bestChoice 0x7f0a006b
 int id blocking 0x7f0a006c
+int id body 0x7f0a0205
 int id bottom 0x7f0a006d
 int id bounce 0x7f0a006e
 int id bounceBoth 0x7f0a006f
@@ -3091,6 +3092,7 @@ int id rounded 0x7f0a017a
 int id row_index_key 0x7f0a017b
 int id save_non_transition_alpha 0x7f0a017c
 int id save_overlay_view 0x7f0a017d
+int id savebtn 0x7f0a0206
 int id sawtooth 0x7f0a017e
 int id scale 0x7f0a017f
 int id screen 0x7f0a0180
