@@ -2649,6 +2649,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appCompatButton
 id arc
 id asConfigured
 id async
@@ -2748,6 +2749,8 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editText
+id editText2
 id editTextTextEmailAddress3
 id editTextTextMultiLine
 id edit_query

@@ -26,7 +26,10 @@ id Btn1
 id Log
 id Profile
 id SignUp
+id appCompatButton
 id back
+id editText
+id editText2
 id editTextTextEmailAddress3
 id editTextTextMultiLine
 id email
