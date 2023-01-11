@@ -11,12 +11,11 @@ import java.time.LocalDateTime
 
 class Add_note : AppCompatActivity() {
     private lateinit var binding: ActivityAddNoteBinding
-    private  lateinit var mDbRef: DatabaseReference
+    private lateinit var mDbRef: DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAddNoteBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.savebtn.setOnClickListener{
             val title = binding.title.text.toString()
             val body = binding.body.text.toString()
@@ -32,7 +31,7 @@ class Add_note : AppCompatActivity() {
         mDbRef = FirebaseDatabase.getInstance().getReference("users")
         val key = mDbRef.child(uid!!).child("notes").push().key
         val note = Note(title, body, time)
-        mDbRef.child(uid!!).child("notes").child(key!!).setValue(note).addOnSuccessListener {
+        mDbRef.child(uid).child("notes").child(key!!).setValue(note).addOnSuccessListener {
             finish()
         }.addOnFailureListener {
             Toast.makeText(this, "error", Toast.LENGTH_LONG).show()

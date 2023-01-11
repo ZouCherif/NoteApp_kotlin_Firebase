@@ -72,6 +72,7 @@ id textView4
 id textView5
 id textView6
 id title
+id username
 layout activity_add_note
 layout activity_main
 layout activity_main_screen
