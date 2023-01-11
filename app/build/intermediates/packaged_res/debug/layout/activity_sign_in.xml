@@ -7,10 +7,12 @@
     android:background="@drawable/sign_in"
     tools:context=".Sign_in" >
 
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Log"
         android:layout_width="250dp"
         android:layout_height="62dp"
+        android:layout_marginBottom="104dp"
         android:background="#00FFFFFF"
         android:text="@string/sign_in"
         android:textAllCaps="false"
@@ -21,46 +23,60 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:layout_width="244dp"
-        android:layout_height="55dp"
-        android:autofillHints=""
-        android:backgroundTint="#FFFFFF"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordcontainer"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/Log"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintHorizontal_bias="0.664"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autofillHints=""
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            tools:ignore="HardcodedText,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="586dp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="243dp"
-        android:layout_height="55dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
         android:backgroundTint="#FFFFFF"
         android:hint="@string/email_address"
         android:inputType="textEmailAddress"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintBottom_toTopOf="@+id/passwordcontainer"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.64"
-        tools:ignore="TouchTargetSizeCheck"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton"
+        app:layout_constraintVertical_bias="0.582"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
         android:layout_width="141dp"
         android:layout_height="75dp"
         android:background="#00FFFFFF"
@@ -93,4 +109,7 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
