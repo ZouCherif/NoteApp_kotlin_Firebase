@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d жаңы билдирме</item>
     <item quantity="other">%d жаңы билдирме</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">Убакытты текст киргизүү режиминде киргизиңиз.</string>
     <string name="mtrl_badge_numberless_content_description">Жаңы билдирме</string>
     <string name="mtrl_chip_close_icon_content_description">Мазмунду алып салуу (%1$s)</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d ашуун жаңы билдирме</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d ашуун жаңы билдирме</string>
     <string name="mtrl_picker_a11y_next_month">Кийинки айга өзгөртүү</string>
     <string name="mtrl_picker_a11y_prev_month">Мурунку айга өзгөртүү</string>
     <string name="mtrl_picker_announce_current_selection">Учурдагы тандоо: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Жокко чыгаруу</string>
+    <string name="mtrl_picker_confirm">Жарайт</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Күн тандоо</string>
     <string name="mtrl_picker_date_header_unselected">Тандалган күн</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Күн тандоо үчүн таптап коюңуз</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Текст киргизүү режимине которулуу</string>
     <string name="mtrl_picker_toggle_to_year_selection">Жыл тандоо үчүн таптап коюңуз</string>
+    <string name="mtrl_timepicker_cancel">Жокко чыгаруу</string>
+    <string name="mtrl_timepicker_confirm">Жарайт</string>
     <string name="password_toggle_content_description">Сырсөздү көрсөтүү</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Издөө"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

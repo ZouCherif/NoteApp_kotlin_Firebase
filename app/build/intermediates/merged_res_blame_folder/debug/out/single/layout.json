@@ -1,46 +1,46 @@
 [
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_settings.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_settings.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_sign_up.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_sign_up.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_profile.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_main.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/modify_note.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/modify_note.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_sign_in.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_sign_in.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_sign_in.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_profile.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_profile.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_settings.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_add_note.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_add_note.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_third.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_third.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/modify_note.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/modify_note.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_main_screen.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_third.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_third.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_sign_up.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_main_screen.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_main_screen.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_second.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_second.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/select_avatar.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/select_avatar.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_add_note.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_add_note.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-30:/layout/activity_second.xml",
-        "source": "com.bdd.notes.app-main-33:/layout/activity_second.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/select_avatar.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/select_avatar.xml"
     }
 ]

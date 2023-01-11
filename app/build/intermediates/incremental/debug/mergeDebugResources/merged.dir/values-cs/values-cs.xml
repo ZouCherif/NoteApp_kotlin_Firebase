@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d nové oznámení</item>
     <item quantity="few">%d nová oznámení</item>
@@ -77,11 +77,12 @@
     <string name="material_timepicker_text_input_mode_description">Chcete-li zadat čas, přepněte na režim textu.</string>
     <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Více než %1$d nových oznámení</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Více než %1$d nových oznámení</string>
     <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
     <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
     <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Zrušit</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vyberte datum</string>
     <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
@@ -108,6 +109,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
     <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="mtrl_timepicker_cancel">Zrušit</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">Zobrazit heslo</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

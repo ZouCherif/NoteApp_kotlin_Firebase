@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
     <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">ለጊዜ ግቤቱ ወደ የጽሑፍ ግቤት ሁነታ ቀይር።</string>
     <string name="mtrl_badge_numberless_content_description">አዲስ ማሳወቂያ</string>
     <string name="mtrl_chip_close_icon_content_description">%1$sን አስወግድ</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">ከ%1$d በላይ አዲስ ማሳወቂያዎች</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">ከ%1$d በላይ አዲስ ማሳወቂያዎች</string>
     <string name="mtrl_picker_a11y_next_month">ወደ የሚቀጥለው ወር ቀይር</string>
     <string name="mtrl_picker_a11y_prev_month">ወደ ቀዳሚው ወር ቀይር</string>
     <string name="mtrl_picker_announce_current_selection">የአሁኑ ምርጫ፦ %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">ይቅር</string>
+    <string name="mtrl_picker_confirm">እሺ</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">ቀን ይምረጡ</string>
     <string name="mtrl_picker_date_header_unselected">የተመረጠው ቀን</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">ወደ ቀን መምረጥ ለመቀየር መታ ያድርጉ</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ወደ ጽሑፍ ግቤት ሁነታ ቀይር</string>
     <string name="mtrl_picker_toggle_to_year_selection">ወደ ዓመት መምረጥ ለመቀየር መታ ያድርጉ</string>
+    <string name="mtrl_timepicker_cancel">ይቅር</string>
+    <string name="mtrl_timepicker_confirm">እሺ</string>
     <string name="password_toggle_content_description">የይለፍ ቃል አሳይ</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ፍለጋ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

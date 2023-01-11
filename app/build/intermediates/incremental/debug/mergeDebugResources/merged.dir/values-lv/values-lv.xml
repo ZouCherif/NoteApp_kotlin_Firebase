@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="zero">%d jaunu paziņojumu</item>
     <item quantity="one">%d jauns paziņojums</item>
@@ -76,11 +76,12 @@
     <string name="material_timepicker_text_input_mode_description">Lai ievadītu laiku, ieslēdziet teksta ievades režīmu.</string>
     <string name="mtrl_badge_numberless_content_description">Jauns paziņojums</string>
     <string name="mtrl_chip_close_icon_content_description">Noņemt: %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Vairāk nekā %1$d jauni paziņojumi</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Vairāk nekā %1$d jauni paziņojumi</string>
     <string name="mtrl_picker_a11y_next_month">Pāriet uz nākamo mēnesi</string>
     <string name="mtrl_picker_a11y_prev_month">Pāriet uz iepriekšējo mēnesi</string>
     <string name="mtrl_picker_announce_current_selection">Pašreizējā atlase: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Atcelt</string>
+    <string name="mtrl_picker_confirm">Labi</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Atlasiet datumu</string>
     <string name="mtrl_picker_date_header_unselected">Atlasītais datums</string>
@@ -107,6 +108,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Pieskarties, lai pārslēgtos uz dienas atlasīšanu</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Pārslēgties uz teksta ievades režīmu</string>
     <string name="mtrl_picker_toggle_to_year_selection">Pieskarties, lai pārslēgtos uz gada atlasīšanu</string>
+    <string name="mtrl_timepicker_cancel">Atcelt</string>
+    <string name="mtrl_timepicker_confirm">Labi</string>
     <string name="password_toggle_content_description">Rādīt paroli</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Meklēt"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

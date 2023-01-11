@@ -8,6 +8,7 @@
     tools:context=".Add_note">
 
     <EditText
+        android:id="@+id/title"
         android:layout_width="184dp"
         android:layout_height="60dp"
         android:backgroundTint="#FFFFFF"
@@ -19,7 +20,7 @@
         android:textColorHint="#FFFFFF"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/body"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +29,7 @@
         tools:ignore="Autofill,TextContrastCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/savebtn"
         android:layout_width="278dp"
         android:layout_height="58dp"
         android:layout_marginBottom="40dp"
@@ -46,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/body"
         android:layout_width="313dp"
         android:layout_height="387dp"
         android:layout_marginBottom="192dp"
@@ -60,7 +61,7 @@
         android:textColor="#AE000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/appCompatButton"
+        app:layout_constraintBottom_toTopOf="@+id/savebtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d ново обавештење</item>
     <item quantity="few">%d нова обавештења</item>
@@ -76,11 +76,12 @@
     <string name="material_timepicker_text_input_mode_description">Пређите у режим уноса текста ради уноса времена.</string>
     <string name="mtrl_badge_numberless_content_description">Ново обавештење</string>
     <string name="mtrl_chip_close_icon_content_description">Уклоните %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Нових обавештења: више од %1$d</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Нових обавештења: више од %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Откажи</string>
+    <string name="mtrl_picker_confirm">Потврди</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -107,6 +108,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="mtrl_timepicker_cancel">Откажи</string>
+    <string name="mtrl_timepicker_confirm">Потврди</string>
     <string name="password_toggle_content_description">Прикажи лозинку</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Претражите"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

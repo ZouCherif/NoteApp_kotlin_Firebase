@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d nova obavijest</item>
     <item quantity="few">%d nove obavijesti</item>
@@ -76,11 +76,12 @@
     <string name="material_timepicker_text_input_mode_description">Prijeđite na način unosa teksta da biste unijeli vrijeme.</string>
     <string name="mtrl_badge_numberless_content_description">Nova obavijest</string>
     <string name="mtrl_chip_close_icon_content_description">Ukloni %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Više od %1$d novih obavijesti</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Više od %1$d novih obavijesti</string>
     <string name="mtrl_picker_a11y_next_month">Prijelaz na sljedeći mjesec</string>
     <string name="mtrl_picker_a11y_prev_month">Pomicanje na prethodni mjesec</string>
     <string name="mtrl_picker_announce_current_selection">Trenutačan odabir: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Odustani</string>
+    <string name="mtrl_picker_confirm">U redu</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Odaberite datum</string>
     <string name="mtrl_picker_date_header_unselected">Odabrani datum</string>
@@ -107,6 +108,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Dodirnite za prijelaz na odabir dana</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Prijelaz na način unosa teksta</string>
     <string name="mtrl_picker_toggle_to_year_selection">Dodirnite za prijelaz na odabir godine</string>
+    <string name="mtrl_timepicker_cancel">Odustani</string>
+    <string name="mtrl_timepicker_confirm">U redu</string>
     <string name="password_toggle_content_description">Prikaži zaporku</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Pretraži"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
     <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">ಸಮಯವನ್ನು ನಮೂದಿಸಲು ಪಠ್ಯದ ನಮೂನೆಗೆ ಬದಲಿಸಿ.</string>
     <string name="mtrl_badge_numberless_content_description">ಹೊಸ ಅಧಿಸೂಚನೆ</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s ಅನ್ನು ತೆಗೆದುಹಾಕಿ</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d ಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d ಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="mtrl_picker_a11y_next_month">ಮುಂದಿನ ತಿಂಗಳಿಗೆ ಬದಲಿಸಿ</string>
     <string name="mtrl_picker_a11y_prev_month">ಹಿಂದಿನ ತಿಂಗಳಿಗೆ ಬದಲಿಸಿ</string>
     <string name="mtrl_picker_announce_current_selection">ಪ್ರಸ್ತುತ ಆಯ್ಕೆ: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="mtrl_picker_confirm">ಸರಿ</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="mtrl_picker_date_header_unselected">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">ದಿನವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ಪಠ್ಯ ಇನ್‌ಪುಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
     <string name="mtrl_picker_toggle_to_year_selection">ವರ್ಷವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="mtrl_timepicker_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="mtrl_timepicker_confirm">ಸರಿ</string>
     <string name="password_toggle_content_description">ಪಾಸ್‌ವರ್ಡ್ ತೋರಿಸಿ</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ಹುಡುಕಿ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

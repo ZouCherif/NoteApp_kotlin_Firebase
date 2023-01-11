@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d ახალი შეტყობინება</item>
     <item quantity="other">%d ახალი შეტყობინება</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">დროის შეყვანისთვის ტექსტის შეყვანის რეჟიმზე გადართვა.</string>
     <string name="mtrl_badge_numberless_content_description">ახალი შეტყობინება</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s-ის ამოშლა</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d-ზე მეტი ახალი შეტყობინება</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d-ზე მეტი ახალი შეტყობინება</string>
     <string name="mtrl_picker_a11y_next_month">შემდეგ თვეზე გადასვლა</string>
     <string name="mtrl_picker_a11y_prev_month">წინა თვეზე გადასვლა</string>
     <string name="mtrl_picker_announce_current_selection">ამჟამინდელი არჩევანი: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">გაუქმება</string>
+    <string name="mtrl_picker_confirm">კარგი</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">აირჩიეთ თარიღი</string>
     <string name="mtrl_picker_date_header_unselected">არჩეული თარიღი</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">შეეხეთ დღის არჩევაზე გადასართავად</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ტექსტის შეყვანის რეჟიმზე გადართვა</string>
     <string name="mtrl_picker_toggle_to_year_selection">შეეხეთ წლის არჩევაზე გადასართავად</string>
+    <string name="mtrl_timepicker_cancel">გაუქმება</string>
+    <string name="mtrl_timepicker_confirm">კარგი</string>
     <string name="password_toggle_content_description">პაროლის ჩვენება</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ძიება"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

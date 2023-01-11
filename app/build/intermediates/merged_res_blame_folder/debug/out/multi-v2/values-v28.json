@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "com.bdd.notes.app-mergeDebugResources-29:/values-v28/values-v28.xml",
+            "outputFile": "com.bdd.notes.app-mergeDebugResources-32:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\cc24549ad5e00ddef1d54591319b5903\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\49264c66ab94c95b3de51c683ce3b289\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,447",
+                        "startOffsets": "55,130,217,397",
                         "endLines": "2,3,7,11",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,442,684"
+                        "endOffsets": "125,212,392,584"
                     },
                     "to": {
                         "startLines": "14,15,16,20",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\e9159ae6a6d2ba0dd7a9ee642ae63067\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\28739db92ff9abfc9b2cf8ca2655dc1f\\transformed\\material-1.7.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

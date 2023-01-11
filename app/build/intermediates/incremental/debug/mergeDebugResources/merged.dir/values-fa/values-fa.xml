@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d اعلان جدید</item>
     <item quantity="other">%d اعلان جدید</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">برای وارد کردن زمان، به حالت ورودی نوشتاری تغییر وضعیت دهید.</string>
     <string name="mtrl_badge_numberless_content_description">اعلان جدید</string>
     <string name="mtrl_chip_close_icon_content_description">برداشتن %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">بیش از %1$d اعلان جدید</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">بیش از %1$d اعلان جدید</string>
     <string name="mtrl_picker_a11y_next_month">تغییر به ماه بعدی</string>
     <string name="mtrl_picker_a11y_prev_month">تغییر به ماه قبلی</string>
     <string name="mtrl_picker_announce_current_selection">انتخاب کنونی: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">لغو</string>
+    <string name="mtrl_picker_confirm">تأیید</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">انتخاب تاریخ</string>
     <string name="mtrl_picker_date_header_unselected">تاریخ انتخابی</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">رفتن به رفتن به حالت انتخاب روز ضربه بزنید</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">رفتن به حالت ورودی نوشتاری</string>
     <string name="mtrl_picker_toggle_to_year_selection">برای رفتن به حالت انتخاب سال ضربه بزنید</string>
+    <string name="mtrl_timepicker_cancel">لغو</string>
+    <string name="mtrl_timepicker_confirm">تأیید</string>
     <string name="password_toggle_content_description">نمایش گذرواژه</string>
     <string msgid="6264217191555673260" name="search_menu_title">"جستجو"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

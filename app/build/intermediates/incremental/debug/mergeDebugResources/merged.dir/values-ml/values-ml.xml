@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
     <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">സമയം നൽകുന്നതിന് ടെക്സ്റ്റ് ഇൻപുട്ട് ‌മോ‌ഡിലേക്ക് ‌മാറുക.</string>
     <string name="mtrl_badge_numberless_content_description">പുതിയ അറിയിപ്പ്</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s നീക്കം ചെയ്യുക</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d-ലധികം പുതിയ അറിയിപ്പുകൾ</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d-ലധികം പുതിയ അറിയിപ്പുകൾ</string>
     <string name="mtrl_picker_a11y_next_month">അടുത്ത മാസത്തിലേക്ക് മാറ്റുക</string>
     <string name="mtrl_picker_a11y_prev_month">മുമ്പത്തെ മാസത്തിലേക്ക് മാറ്റുക</string>
     <string name="mtrl_picker_announce_current_selection">നിലവിൽ തിരഞ്ഞെടുത്തത്: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">റദ്ദാക്കുക</string>
+    <string name="mtrl_picker_confirm">ശരി</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">തീയതി തിരഞ്ഞെടുക്കുക</string>
     <string name="mtrl_picker_date_header_unselected">തിരഞ്ഞെടുത്ത തീയതി</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">ദിവസം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ടെക്‌സ്‌റ്റ് ഇൻപുട്ട് മോഡിലേക്ക് മാറുക</string>
     <string name="mtrl_picker_toggle_to_year_selection">വർഷം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="mtrl_timepicker_cancel">റദ്ദാക്കുക</string>
+    <string name="mtrl_timepicker_confirm">ശരി</string>
     <string name="password_toggle_content_description">പാസ്‌വേഡ് കാണിക്കുക</string>
     <string msgid="6264217191555673260" name="search_menu_title">"തിരയുക"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

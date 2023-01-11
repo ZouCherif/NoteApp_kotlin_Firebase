@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d шинэ мэдэгдэл</item>
     <item quantity="other">%d шинэ мэдэгдэл</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">Цагийг оруулахын тулд текст оруулах горимд шилжүүлнэ үү.</string>
     <string name="mtrl_badge_numberless_content_description">Шинэ мэдэгдэл</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s-г устгах</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d-с олон шинэ мэдэгдэл</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d-с олон шинэ мэдэгдэл</string>
     <string name="mtrl_picker_a11y_next_month">Дараагийн сар луу өөрчлөх</string>
     <string name="mtrl_picker_a11y_prev_month">Өмнөх сар луу өөрчлөх</string>
     <string name="mtrl_picker_announce_current_selection">Одоогийн сонголт: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Цуцлах</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Огноо сонгох</string>
     <string name="mtrl_picker_date_header_unselected">Сонгосон огноо</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Өдөр сонгох руу сэлгэхийн тулд товшино уу</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Текстийн орох горим руу сэлгэх</string>
     <string name="mtrl_picker_toggle_to_year_selection">Он сонгох руу сэлгэхийн тулд товшино уу</string>
+    <string name="mtrl_timepicker_cancel">Цуцлах</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">Нууц үгийг харуулах</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Хайх"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

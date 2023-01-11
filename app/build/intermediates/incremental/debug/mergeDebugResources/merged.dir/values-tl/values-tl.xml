@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d bagong notification</item>
     <item quantity="other">%d na bagong notification</item>
@@ -75,11 +75,12 @@
     <string name="material_timepicker_text_input_mode_description">Lumipat sa pamamaraan ng pag-input ng text para sa input na oras.</string>
     <string name="mtrl_badge_numberless_content_description">Bagong notification</string>
     <string name="mtrl_chip_close_icon_content_description">Alisin ang %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Mahigit %1$d (na) bagong notification</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Mahigit %1$d (na) bagong notification</string>
     <string name="mtrl_picker_a11y_next_month">Lumipat sa susunod na buwan</string>
     <string name="mtrl_picker_a11y_prev_month">Lumipat sa nakaraang buwan</string>
     <string name="mtrl_picker_announce_current_selection">Kasalukuyang seleksyon: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">Kanselahin</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pumili ng Petsa</string>
     <string name="mtrl_picker_date_header_unselected">Piniling petsa</string>
@@ -106,6 +107,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">I-tap para lumipat sa pagpili ng araw</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Lumipat sa pamamaraan ng pag-input ng text</string>
     <string name="mtrl_picker_toggle_to_year_selection">I-tap para lumipat sa pagpili ng taon</string>
+    <string name="mtrl_timepicker_cancel">Kanselahin</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">Ipakita ang password</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Maghanap"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
