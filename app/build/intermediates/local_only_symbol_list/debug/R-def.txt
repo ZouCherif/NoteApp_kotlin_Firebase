@@ -54,6 +54,7 @@ id body
 id editTextTextEmailAddress3
 id editTextTextMultiLine
 id email
+id imageView
 id imageView3
 id imageView5
 id next1
@@ -66,6 +67,7 @@ id signin
 id start
 id textView
 id textView2
+id textView3
 id textView4
 id textView5
 id textView6

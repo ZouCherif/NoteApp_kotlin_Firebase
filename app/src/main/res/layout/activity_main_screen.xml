@@ -7,18 +7,19 @@ android:layout_height="match_parent"
 android:background="@drawable/main_activity"
 tools:context=".Main_screen" >
 
-<ImageView
-    android:layout_width="51dp"
-    android:layout_height="50dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.102"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.163"
-    app:srcCompat="@drawable/search"
-    tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck"
-    android:contentDescription="TODO" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        app:srcCompat="@drawable/search"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
 
 <EditText
     android:layout_width="265dp"
@@ -39,50 +40,45 @@ tools:context=".Main_screen" >
     tools:ignore="TextContrastCheck"
     android:autofillHints="" />
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/welcome"
-    android:textColor="#7197FF"
-    android:textSize="30sp"
-    android:textStyle="bold"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.254"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.076"
-    tools:ignore="TextContrastCheck" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/welcome"
+        android:textColor="#7197FF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="User"
-    android:textColor="#FFFFFF"
-    android:textSize="30sp"
-    android:textStyle="bold"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.66"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.076"
-    tools:ignore="HardcodedText,TextContrastCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="User"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
-<androidx.appcompat.widget.AppCompatButton
-    android:id="@+id/Btn1"
-    android:layout_width="69dp"
-    android:layout_height="67dp"
-    android:background="@drawable/ic_baseline_subject_24"
-    android:rotationX="-180"
-    android:rotationY="-180"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.95"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.034"
-    tools:ignore="SpeakableTextPresentCheck" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn1"
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_baseline_subject_24"
+        android:rotationX="-180"
+        android:rotationY="-180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Add"

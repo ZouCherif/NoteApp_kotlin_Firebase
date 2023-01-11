@@ -2955,6 +2955,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView3
 id imageView5
 id immediateStop
@@ -3177,6 +3178,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
 id textView4
 id textView5
 id textView6
