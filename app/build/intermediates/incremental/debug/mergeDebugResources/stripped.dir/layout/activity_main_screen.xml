@@ -84,17 +84,17 @@ tools:context=".Main_screen" >
     app:layout_constraintVertical_bias="0.034"
     tools:ignore="SpeakableTextPresentCheck" />
 
-<androidx.appcompat.widget.AppCompatButton
-    android:id="@+id/Add"
-    android:layout_width="80dp"
-    android:layout_height="80dp"
-    android:background="@drawable/add"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.498"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.953"
-    tools:ignore="SpeakableTextPresentCheck" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Add"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
