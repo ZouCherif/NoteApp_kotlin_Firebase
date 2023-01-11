@@ -2648,7 +2648,6 @@ int id animateToEnd 0x7f080053
 int id animateToStart 0x7f080054
 int id antiClockwise 0x7f080055
 int id anticipate 0x7f080056
-int id appCompatButton 0x7f0801fc
 int id arc 0x7f080057
 int id asConfigured 0x7f080058
 int id async 0x7f080059
@@ -2748,8 +2747,6 @@ int id easeIn 0x7f0800b6
 int id easeInOut 0x7f0800b7
 int id easeOut 0x7f0800b8
 int id east 0x7f0800b9
-int id editText 0x7f0801fd
-int id editText2 0x7f0801fe
 int id editTextTextEmailAddress3 0x7f0800ba
 int id editTextTextMultiLine 0x7f0800bb
 int id edit_query 0x7f0800bc

@@ -4,7 +4,7 @@
             "outputFile": "com.bdd.notes.app-mergeDebugResources-29:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\e9159ae6a6d2ba0dd7a9ee642ae63067\\transformed\\material-1.5.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\e9159ae6a6d2ba0dd7a9ee642ae63067\\transformed\\material-1.5.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
