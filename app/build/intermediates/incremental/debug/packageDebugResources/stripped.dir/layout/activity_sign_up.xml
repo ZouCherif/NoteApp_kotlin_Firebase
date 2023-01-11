@@ -4,123 +4,181 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sign_up"
+    android:background="#EAEDED"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
     tools:context=".Sign_up">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/SignUp"
-        android:layout_width="250dp"
-        android:layout_height="62dp"
-        android:layout_marginBottom="40dp"
-        android:background="#00FFFFFF"
-        android:text="Sign up"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#7197FF"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="244dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="36dp"
-        android:autofillHints=""
-        android:backgroundTint="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="#4CAF50"
         android:ems="10"
-        android:hint="Email"
-        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress"
+        android:labelFor="@id/EmailTxt"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
         android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/passwordcontainer"
+        app:layout_constraintBottom_toTopOf="@+id/passtxt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordcontainer"
-        android:layout_width="250dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="46dp"
-        app:layout_constraintBottom_toTopOf="@+id/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintStart_toStartOf="parent"
-        app:passwordToggleEnabled="true">
+        app:boxBackgroundColor="@color/background"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount">
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="#FFFFFF"
+            android:layout_height="wrap_content"
             android:inputType="textPassword"
+            android:labelFor="@id/passtxt"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="634dp" />
-
+            app:layout_constraintStart_toStartOf="parent" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="243dp"
-        android:layout_height="45dp"
-        android:autofillHints=""
-        android:backgroundTint="#FFFFFF"
-        android:hint="User Name"
-        android:inputType="textEmailAddress"
-        android:paddingHorizontal="10dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/email"
+    <Button
+        android:id="@+id/CreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/abeezee"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="Create Account"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ToRegisterContainer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.633"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toSignIn"
-        app:layout_constraintVertical_bias="0.423"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/toSignIn"
-        android:layout_width="141dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="376dp"
-        android:background="#00FFFFFF"
-        android:text="Sign in"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#9CFFFFFF"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/appCompatButton"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Create Account"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintVertical_bias="0.0" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
-        android:layout_width="141dp"
-        android:layout_height="75dp"
-        android:layout_marginEnd="50dp"
-        android:background="#00FFFFFF"
-        android:text="Sign up"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFFFFF"
-        android:textSize="28sp"
-        android:textStyle="bold"
+    <LinearLayout
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <TextView
+        android:id="@+id/EmailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Email Address"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/passtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordcontainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Username"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/EmailTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ToRegisterContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/RegisterQst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Already have an account?"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee"
+            android:padding="5dp"
+            android:text="Login"
+            android:textColor="@color/purple"
+            android:textSize="18sp" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

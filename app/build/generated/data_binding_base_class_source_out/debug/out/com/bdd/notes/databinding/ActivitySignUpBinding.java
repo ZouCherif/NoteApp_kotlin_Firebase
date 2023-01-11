@@ -4,10 +4,12 @@ package com.bdd.notes.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,13 +24,31 @@ public final class ActivitySignUpBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final AppCompatButton SignUp;
+  public final Button CreateAccount;
 
   @NonNull
-  public final AppCompatButton appCompatButton;
+  public final TextView EmailTxt;
+
+  @NonNull
+  public final LinearLayout Register;
+
+  @NonNull
+  public final TextView RegisterQst;
+
+  @NonNull
+  public final TextView ToLogin;
+
+  @NonNull
+  public final LinearLayout ToRegisterContainer;
+
+  @NonNull
+  public final EditText Username;
 
   @NonNull
   public final EditText email;
+
+  @NonNull
+  public final TextView passtxt;
 
   @NonNull
   public final EditText password;
@@ -37,23 +57,31 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final TextInputLayout passwordcontainer;
 
   @NonNull
-  public final AppCompatButton toSignIn;
+  public final TextView textView;
 
   @NonNull
-  public final EditText username;
+  public final TextView textView2;
 
-  private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatButton SignUp,
-      @NonNull AppCompatButton appCompatButton, @NonNull EditText email, @NonNull EditText password,
-      @NonNull TextInputLayout passwordcontainer, @NonNull AppCompatButton toSignIn,
-      @NonNull EditText username) {
+  private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull Button CreateAccount,
+      @NonNull TextView EmailTxt, @NonNull LinearLayout Register, @NonNull TextView RegisterQst,
+      @NonNull TextView ToLogin, @NonNull LinearLayout ToRegisterContainer,
+      @NonNull EditText Username, @NonNull EditText email, @NonNull TextView passtxt,
+      @NonNull EditText password, @NonNull TextInputLayout passwordcontainer,
+      @NonNull TextView textView, @NonNull TextView textView2) {
     this.rootView = rootView;
-    this.SignUp = SignUp;
-    this.appCompatButton = appCompatButton;
+    this.CreateAccount = CreateAccount;
+    this.EmailTxt = EmailTxt;
+    this.Register = Register;
+    this.RegisterQst = RegisterQst;
+    this.ToLogin = ToLogin;
+    this.ToRegisterContainer = ToRegisterContainer;
+    this.Username = Username;
     this.email = email;
+    this.passtxt = passtxt;
     this.password = password;
     this.passwordcontainer = passwordcontainer;
-    this.toSignIn = toSignIn;
-    this.username = username;
+    this.textView = textView;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -83,21 +111,57 @@ public final class ActivitySignUpBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.SignUp;
-      AppCompatButton SignUp = ViewBindings.findChildViewById(rootView, id);
-      if (SignUp == null) {
+      id = R.id.CreateAccount;
+      Button CreateAccount = ViewBindings.findChildViewById(rootView, id);
+      if (CreateAccount == null) {
         break missingId;
       }
 
-      id = R.id.appCompatButton;
-      AppCompatButton appCompatButton = ViewBindings.findChildViewById(rootView, id);
-      if (appCompatButton == null) {
+      id = R.id.EmailTxt;
+      TextView EmailTxt = ViewBindings.findChildViewById(rootView, id);
+      if (EmailTxt == null) {
+        break missingId;
+      }
+
+      id = R.id.Register;
+      LinearLayout Register = ViewBindings.findChildViewById(rootView, id);
+      if (Register == null) {
+        break missingId;
+      }
+
+      id = R.id.RegisterQst;
+      TextView RegisterQst = ViewBindings.findChildViewById(rootView, id);
+      if (RegisterQst == null) {
+        break missingId;
+      }
+
+      id = R.id.ToLogin;
+      TextView ToLogin = ViewBindings.findChildViewById(rootView, id);
+      if (ToLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.ToRegisterContainer;
+      LinearLayout ToRegisterContainer = ViewBindings.findChildViewById(rootView, id);
+      if (ToRegisterContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.Username;
+      EditText Username = ViewBindings.findChildViewById(rootView, id);
+      if (Username == null) {
         break missingId;
       }
 
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
+        break missingId;
+      }
+
+      id = R.id.passtxt;
+      TextView passtxt = ViewBindings.findChildViewById(rootView, id);
+      if (passtxt == null) {
         break missingId;
       }
 
@@ -113,20 +177,21 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toSignIn;
-      AppCompatButton toSignIn = ViewBindings.findChildViewById(rootView, id);
-      if (toSignIn == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
-      id = R.id.username;
-      EditText username = ViewBindings.findChildViewById(rootView, id);
-      if (username == null) {
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
         break missingId;
       }
 
-      return new ActivitySignUpBinding((ConstraintLayout) rootView, SignUp, appCompatButton, email,
-          password, passwordcontainer, toSignIn, username);
+      return new ActivitySignUpBinding((ConstraintLayout) rootView, CreateAccount, EmailTxt,
+          Register, RegisterQst, ToLogin, ToRegisterContainer, Username, email, passtxt, password,
+          passwordcontainer, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
