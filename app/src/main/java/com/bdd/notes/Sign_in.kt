@@ -3,6 +3,7 @@ package com.bdd.notes
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bdd.notes.databinding.ActivitySignInBinding
@@ -50,6 +51,12 @@ class Sign_in : AppCompatActivity() {
                 Toast.makeText(this, "Empty fields are not allowed !!", Toast.LENGTH_LONG).show()
             }
         }
+
+        binding.ForgotPass.setOnClickListener {
+            val intent = Intent (this,ForgotPassword::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onStart() {
