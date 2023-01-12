@@ -1,6 +1,7 @@
 package com.bdd.notes
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,6 +22,10 @@ class NotesAdapter(val context: Context, val noteList: ArrayList<Note>): Recycle
         val currentNote = noteList[position]
         holder.title.text = currentNote.title
         holder.time.text = currentNote.time
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, modifyNote::class.java)
+            intent.putExtra("")
+        }
     }
 
     class NoteViewholder(itemView: View): RecyclerView.ViewHolder(itemView){
