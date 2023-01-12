@@ -6,7 +6,7 @@ import com.google.firebase.database.IgnoreExtraProperties
 import java.time.LocalDateTime
 
 @IgnoreExtraProperties
-data class Note(val title: String? = null, val body: String? = null, val time: LocalDateTime) {
+data class Note(val title: String? = null, val body: String? = null, val time: String? = null) {
     @Exclude
     fun toMap(): Map<String, Any?> {
         return mapOf(

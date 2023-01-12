@@ -27,6 +27,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable main_activity
 drawable modify_note
+drawable note_card_background
 drawable profile
 drawable search
 drawable second
@@ -51,6 +52,7 @@ id ToRegisterContainer
 id Username
 id back
 id body
+id editText
 id editTextTextEmailAddress3
 id editTextTextMultiLine
 id email
@@ -59,6 +61,7 @@ id imageView3
 id imageView5
 id next1
 id next2
+id noteRecyclerView
 id passtxt
 id password
 id passwordcontainer
@@ -71,6 +74,7 @@ id textView3
 id textView4
 id textView5
 id textView6
+id time
 id title
 id username
 layout activity_add_note
@@ -83,6 +87,7 @@ layout activity_sign_in
 layout activity_sign_up
 layout activity_third
 layout modify_note
+layout note_card
 layout select_avatar
 mipmap ic_launcher
 mipmap ic_launcher_round

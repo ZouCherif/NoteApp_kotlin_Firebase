@@ -4,10 +4,14 @@ package com.bdd.notes.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bdd.notes.R;
@@ -25,11 +29,33 @@ public final class ActivityMainScreenBinding implements ViewBinding {
   @NonNull
   public final AppCompatButton Btn1;
 
+  @NonNull
+  public final EditText editText;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final RecyclerView noteRecyclerView;
+
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView username;
+
   private ActivityMainScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton Add, @NonNull AppCompatButton Btn1) {
+      @NonNull AppCompatButton Add, @NonNull AppCompatButton Btn1, @NonNull EditText editText,
+      @NonNull ImageView imageView, @NonNull RecyclerView noteRecyclerView,
+      @NonNull TextView textView3, @NonNull TextView username) {
     this.rootView = rootView;
     this.Add = Add;
     this.Btn1 = Btn1;
+    this.editText = editText;
+    this.imageView = imageView;
+    this.noteRecyclerView = noteRecyclerView;
+    this.textView3 = textView3;
+    this.username = username;
   }
 
   @Override
@@ -71,7 +97,38 @@ public final class ActivityMainScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainScreenBinding((ConstraintLayout) rootView, Add, Btn1);
+      id = R.id.editText;
+      EditText editText = ViewBindings.findChildViewById(rootView, id);
+      if (editText == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.noteRecyclerView;
+      RecyclerView noteRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (noteRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.username;
+      TextView username = ViewBindings.findChildViewById(rootView, id);
+      if (username == null) {
+        break missingId;
+      }
+
+      return new ActivityMainScreenBinding((ConstraintLayout) rootView, Add, Btn1, editText,
+          imageView, noteRecyclerView, textView3, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

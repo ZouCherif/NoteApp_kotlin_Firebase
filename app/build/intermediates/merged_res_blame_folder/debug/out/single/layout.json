@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_settings.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_settings.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\note_card.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\note_card.xml"
     },
     {
-        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_main_screen.xml",
-        "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_sign_up.xml",
@@ -24,16 +24,20 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_add_note.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_add_note.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\select_avatar.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\select_avatar.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_add_note.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_add_note.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_third.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_third.xml"
+    },
+    {
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/note_card.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/note_card.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_profile.xml",

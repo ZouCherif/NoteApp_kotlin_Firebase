@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_add_note.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_note_card_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\note_card_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -132,16 +136,16 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_baseline_subject_24.xml"
     },
     {
-        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_main_screen.xml.flat",
-        "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_search.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\search.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_modify_note.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\modify_note.xml"
+    },
+    {
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_note_card_background.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/note_card_background.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_female.png.flat",
@@ -182,6 +186,10 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_note_card.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\note_card.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_sign_in.xml.flat",
