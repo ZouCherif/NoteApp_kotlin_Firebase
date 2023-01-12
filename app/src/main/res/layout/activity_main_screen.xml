@@ -11,16 +11,16 @@ tools:context=".Main_screen" >
         android:id="@+id/imageView"
         android:layout_width="51dp"
         android:layout_height="50dp"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="TODO"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/noteRecyclerView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161"
         app:srcCompat="@drawable/search"
         tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="265dp"
         android:layout_height="48dp"
         android:autofillHints=""
@@ -31,12 +31,12 @@ tools:context=".Main_screen" >
         android:textColorHint="#8B7197FF"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/noteRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.158"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162"
+        app:layout_constraintVertical_bias="0.884"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -49,6 +49,8 @@ tools:context=".Main_screen" >
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toStartOf="@+id/Btn1"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -58,20 +60,20 @@ tools:context=".Main_screen" >
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="28dp"
+        android:paddingHorizontal="5dp"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:paddingHorizontal="5dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.039"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,TextContrastCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Btn1"
-        android:layout_width="65dp"
-        android:layout_height="63dp"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/ic_baseline_subject_24"
@@ -85,13 +87,22 @@ tools:context=".Main_screen" >
         android:id="@+id/Add"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/noteRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/note_card"
+        android:padding="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

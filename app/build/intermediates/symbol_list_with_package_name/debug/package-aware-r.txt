@@ -2686,6 +2686,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable note_card_background
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2903,6 +2904,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editText
 id editTextTextEmailAddress3
 id editTextTextMultiLine
 id edit_query
@@ -3053,6 +3055,7 @@ id noState
 id none
 id normal
 id north
+id noteRecyclerView
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3435,6 +3438,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout note_card
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
