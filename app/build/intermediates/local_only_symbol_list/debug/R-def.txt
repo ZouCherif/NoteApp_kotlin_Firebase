@@ -54,8 +54,6 @@ id Username
 id back
 id body
 id editText
-id editTextTextEmailAddress3
-id editTextTextMultiLine
 id email
 id imageView
 id imageView3
@@ -87,13 +85,13 @@ layout activity_add_note
 layout activity_forgot_password
 layout activity_main
 layout activity_main_screen
+layout activity_modify_note
 layout activity_profile
 layout activity_second
 layout activity_settings
 layout activity_sign_in
 layout activity_sign_up
 layout activity_third
-layout modify_note
 layout note_card
 layout select_avatar
 mipmap ic_launcher

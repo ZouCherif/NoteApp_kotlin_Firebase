@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/title"
         android:layout_width="184dp"
         android:layout_height="60dp"
         android:backgroundTint="#FFFFFF"
@@ -65,7 +65,7 @@
         tools:ignore="HardcodedText" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/body"
         android:layout_width="320dp"
         android:layout_height="372dp"
         android:backgroundTint="#FFFFFF"

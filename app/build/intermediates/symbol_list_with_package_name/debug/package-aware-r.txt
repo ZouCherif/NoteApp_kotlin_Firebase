@@ -2906,8 +2906,6 @@ id easeInOut
 id easeOut
 id east
 id editText
-id editTextTextEmailAddress3
-id editTextTextMultiLine
 id edit_query
 id elastic
 id email
@@ -3368,6 +3366,7 @@ layout activity_add_note
 layout activity_forgot_password
 layout activity_main
 layout activity_main_screen
+layout activity_modify_note
 layout activity_profile
 layout activity_second
 layout activity_settings
@@ -3410,7 +3409,6 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
-layout modify_note
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

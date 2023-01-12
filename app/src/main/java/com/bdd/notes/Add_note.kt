@@ -32,7 +32,7 @@ class Add_note : AppCompatActivity() {
     private fun addNoteToDB(title: String?, body: String?, time: String?, uid: String?){
         mDbRef = FirebaseDatabase.getInstance().getReference("users")
         val key = mDbRef.child(uid!!).child("notes").push().key
-        val note = Note(title, body, time)
+        val note = Note(title, body, time, key)
         mDbRef.child(uid).child("notes").child(key!!).setValue(note).addOnSuccessListener {
             finish()
         }.addOnFailureListener {

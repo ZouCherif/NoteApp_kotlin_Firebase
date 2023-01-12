@@ -24,7 +24,10 @@ class NotesAdapter(val context: Context, val noteList: ArrayList<Note>): Recycle
         holder.time.text = currentNote.time
         holder.itemView.setOnClickListener {
             val intent = Intent(context, modifyNote::class.java)
-            intent.putExtra("")
+            intent.putExtra("body", currentNote.body)
+            intent.putExtra("title", currentNote.title)
+            intent.putExtra("noteid", currentNote.noteid)
+            context.startActivity(intent)
         }
     }
 
