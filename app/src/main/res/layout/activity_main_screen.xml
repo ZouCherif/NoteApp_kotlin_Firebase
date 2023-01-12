@@ -119,7 +119,7 @@ tools:context=".Main_screen" >
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            tools:listitem="@layout/note_card" />
+            tools:listitem="@layout/note_card"/>
     </RelativeLayout>
 
 
