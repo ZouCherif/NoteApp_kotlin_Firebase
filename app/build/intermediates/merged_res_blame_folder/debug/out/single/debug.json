@@ -144,10 +144,6 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_baseline_subject_24.xml"
     },
     {
-        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_main_screen.xml.flat",
-        "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_search.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\search.xml"
     },
@@ -162,6 +158,10 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_select_avatar.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\select_avatar.xml"
+    },
+    {
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_modify_note.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_modify_note.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_profile.xml.flat",

@@ -2877,6 +2877,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3007,6 +3008,7 @@ id matrix
 id message
 id middle
 id mini
+id modify
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle

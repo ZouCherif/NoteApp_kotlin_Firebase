@@ -53,12 +53,14 @@ id ToRegisterContainer
 id Username
 id back
 id body
+id delete
 id editText
 id email
 id imageView
 id imageView3
 id imageView5
 id linearLayout
+id modify
 id next1
 id next2
 id noteRecyclerView

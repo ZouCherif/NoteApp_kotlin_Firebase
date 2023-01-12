@@ -29,6 +29,7 @@
         tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/modify"
         android:layout_width="123dp"
         android:layout_height="59dp"
         android:background="#00FFFFFF"
@@ -47,6 +48,7 @@
         tools:ignore="HardcodedText" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete"
         android:layout_width="123dp"
         android:layout_height="59dp"
         android:background="#00FFFFFF"
