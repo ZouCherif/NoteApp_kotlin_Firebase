@@ -2732,6 +2732,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id SearchContainer
 id TOP_END
 id TOP_START
 id ToLogin
@@ -2979,6 +2980,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id marquee
@@ -3056,6 +3058,7 @@ id none
 id normal
 id north
 id noteRecyclerView
+id noteRecyclerViewContainer
 id notification_background
 id notification_main_column
 id notification_main_column_container

@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -30,13 +32,22 @@ public final class ActivityMainScreenBinding implements ViewBinding {
   public final AppCompatButton Btn1;
 
   @NonNull
+  public final LinearLayout SearchContainer;
+
+  @NonNull
   public final EditText editText;
 
   @NonNull
   public final ImageView imageView;
 
   @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
   public final RecyclerView noteRecyclerView;
+
+  @NonNull
+  public final RelativeLayout noteRecyclerViewContainer;
 
   @NonNull
   public final TextView textView3;
@@ -45,15 +56,20 @@ public final class ActivityMainScreenBinding implements ViewBinding {
   public final TextView username;
 
   private ActivityMainScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton Add, @NonNull AppCompatButton Btn1, @NonNull EditText editText,
-      @NonNull ImageView imageView, @NonNull RecyclerView noteRecyclerView,
+      @NonNull AppCompatButton Add, @NonNull AppCompatButton Btn1,
+      @NonNull LinearLayout SearchContainer, @NonNull EditText editText,
+      @NonNull ImageView imageView, @NonNull LinearLayout linearLayout,
+      @NonNull RecyclerView noteRecyclerView, @NonNull RelativeLayout noteRecyclerViewContainer,
       @NonNull TextView textView3, @NonNull TextView username) {
     this.rootView = rootView;
     this.Add = Add;
     this.Btn1 = Btn1;
+    this.SearchContainer = SearchContainer;
     this.editText = editText;
     this.imageView = imageView;
+    this.linearLayout = linearLayout;
     this.noteRecyclerView = noteRecyclerView;
+    this.noteRecyclerViewContainer = noteRecyclerViewContainer;
     this.textView3 = textView3;
     this.username = username;
   }
@@ -97,6 +113,12 @@ public final class ActivityMainScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.SearchContainer;
+      LinearLayout SearchContainer = ViewBindings.findChildViewById(rootView, id);
+      if (SearchContainer == null) {
+        break missingId;
+      }
+
       id = R.id.editText;
       EditText editText = ViewBindings.findChildViewById(rootView, id);
       if (editText == null) {
@@ -109,9 +131,21 @@ public final class ActivityMainScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
       id = R.id.noteRecyclerView;
       RecyclerView noteRecyclerView = ViewBindings.findChildViewById(rootView, id);
       if (noteRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.noteRecyclerViewContainer;
+      RelativeLayout noteRecyclerViewContainer = ViewBindings.findChildViewById(rootView, id);
+      if (noteRecyclerViewContainer == null) {
         break missingId;
       }
 
@@ -127,8 +161,9 @@ public final class ActivityMainScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainScreenBinding((ConstraintLayout) rootView, Add, Btn1, editText,
-          imageView, noteRecyclerView, textView3, username);
+      return new ActivityMainScreenBinding((ConstraintLayout) rootView, Add, Btn1, SearchContainer,
+          editText, imageView, linearLayout, noteRecyclerView, noteRecyclerViewContainer, textView3,
+          username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -7,68 +7,79 @@ android:layout_height="match_parent"
 android:background="@drawable/main_activity"
 tools:context=".Main_screen" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="51dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="TODO"
-        app:layout_constraintBottom_toTopOf="@+id/noteRecyclerView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/search"
-        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="265dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:backgroundTint="#FFFFFF"
-        android:ems="10"
-        android:hint="@string/search"
-        android:inputType="textEmailAddress"
-        android:textColorHint="#8B7197FF"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/noteRecyclerView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884"
-        tools:ignore="TextContrastCheck" />
+    <LinearLayout
+        android:id="@+id/SearchContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="0dp">
 
-    <TextView
-        android:id="@+id/textView3"
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="51dp"
+            android:layout_height="50dp"
+            android:contentDescription="TODO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/search"
+            tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="265dp"
+            android:layout_height="48dp"
+            android:autofillHints=""
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/search"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#8B7197FF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/noteRecyclerViewContainer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.709"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="@string/welcome"
-        android:textColor="#7197FF"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/username"
-        app:layout_constraintEnd_toStartOf="@+id/Btn1"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:paddingHorizontal="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,TextContrastCheck" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#7197FF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:paddingHorizontal="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+    </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Btn1"
@@ -94,15 +105,22 @@ tools:context=".Main_screen" >
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/noteRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="650dp"
-        android:layout_marginBottom="36dp"
+    <RelativeLayout
+        android:id="@+id/noteRecyclerViewContainer"
+        android:layout_width="386dp"
+        android:layout_height="629dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:listitem="@layout/note_card"
-        android:padding="10dp"/>
+        app:layout_constraintTop_toBottomOf="@+id/SearchContainer">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/noteRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:listitem="@layout/note_card" />
+    </RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
