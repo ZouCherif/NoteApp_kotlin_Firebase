@@ -1,210 +1,206 @@
 [
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_note_card.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\note_card.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_avatar.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/avatar.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_profile.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\profile.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_second.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_profile.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_ic_baseline_subject_24.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/ic_baseline_subject_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_select_avatar.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\select_avatar.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_add_note.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/add_note.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_sign_in.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\sign_in.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_second.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/second.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_ic_baseline_navigate_next_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_baseline_navigate_next_24.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_female.png.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/female.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_third.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_third.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_note_card_background.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\note_card_background.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_search.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/search.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_fragment_pop_up.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\fragment_pop_up.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_third.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/third.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_third.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\third.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_sign_in.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_first.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/first.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/font_abeezee.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/font/abeezee.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_modify_note.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\modify_note.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_sign_in.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_avatar.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\avatar.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_note_card.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/note_card.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_main_activity.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\main_activity.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_profile.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/profile.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_select_avatar.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/select_avatar.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_female.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\female.png"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_settings.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/settings.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_main.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_third.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_third.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_add_note.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_add_note.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_main_activity.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_sign_up.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\sign_up.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_modify_note.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_modify_note.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_sign_in.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-pngs-29:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_settings.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_add_note.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\add_note.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_select_avatar.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\select_avatar.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_forgot_password.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_profile.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_add_note.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_add_note.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_main_screen.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_sign_up.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_dashboard.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_note_card_background.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/note_card_background.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_dashboard.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\dashboard.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_select_avatar.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/select_avatar.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\xml\\backup_rules.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\font_abeezee.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\font\\abeezee.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_forgot_password.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_modify_note.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_modify_note.xml"
     },
     {
         "merged": "com.bdd.notes.app-merged_res-34:/layout_fragment_pop_up.xml.flat",
         "source": "com.bdd.notes.app-main-36:/layout/fragment_pop_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_second.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\second.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_settings.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_sign_up.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_modify_note.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/modify_note.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_avatars_accounts___man_male_people_person_shirt_hairstyle.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\avatars_accounts___man_male_people_person_shirt_hairstyle.png"
+        "merged": "com.bdd.notes.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_first.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\first.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_ic_baseline_subject_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_baseline_subject_24.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bdd.notes.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_second.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_second.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.bdd.notes.app-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\xml\\data_extraction_rules.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_avatars_accounts___man_male_people_person_shirt_hairstyle.png.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/avatars_accounts___man_male_people_person_shirt_hairstyle.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_search.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\search.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_sign_up.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_ic_baseline_navigate_next_24.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/ic_baseline_navigate_next_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_add.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\add.xml"
-    },
-    {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_settings.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_main_screen.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_main_screen.xml"
+        "merged": "com.bdd.notes.app-merged_res-34:/drawable_add.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/drawable/add.xml"
     }
 ]

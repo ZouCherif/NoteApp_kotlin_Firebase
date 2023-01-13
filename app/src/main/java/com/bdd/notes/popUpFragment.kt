@@ -8,10 +8,13 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 
 class popUpFragment : DialogFragment() {
-
+    private  lateinit var mDbRef: DatabaseReference
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -28,11 +31,14 @@ class popUpFragment : DialogFragment() {
             dismiss()
         }
         delete.setOnClickListener {
-            Toast.makeText(context, "this is the delete button", Toast.LENGTH_SHORT).show()
+            val dataPassed: String? = arguments?.getString("noteid")
+            mDbRef = FirebaseDatabase.getInstance().getReference("users")
+            mDbRef.child(FirebaseAuth.getInstance().currentUser?.uid!!).child("notes").child(dataPassed.toString()).removeValue()
+            activity?.finish()
         }
 
-    }
 
+    }
 
 
 

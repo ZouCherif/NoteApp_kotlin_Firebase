@@ -42,8 +42,10 @@ class modifyNote : AppCompatActivity() {
         }
 
         binding.delete.setOnClickListener{
+            val args = Bundle()
+            args.putString("noteid", noteid)
             val showPopUp = popUpFragment()
-
+            showPopUp.arguments = args
             showPopUp.show(this.supportFragmentManager, "showPopUp")
         }
     }
