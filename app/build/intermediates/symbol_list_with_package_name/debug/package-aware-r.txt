@@ -2836,6 +2836,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cancelbtn
 id carryVelocity
 id center
 id centerCrop
@@ -2885,6 +2886,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detelebtn
 id dialog_button
 id dimensions
 id direct
@@ -3393,6 +3395,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_pop_up
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3537,6 +3540,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

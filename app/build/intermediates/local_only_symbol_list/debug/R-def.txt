@@ -53,7 +53,9 @@ id ToRegisterContainer
 id Username
 id back
 id body
+id cancelbtn
 id delete
+id detelebtn
 id editText
 id email
 id imageView
@@ -94,6 +96,7 @@ layout activity_settings
 layout activity_sign_in
 layout activity_sign_up
 layout activity_third
+layout fragment_pop_up
 layout note_card
 layout select_avatar
 mipmap ic_launcher
@@ -112,6 +115,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string next
 string password
 string pasword

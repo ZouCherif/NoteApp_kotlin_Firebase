@@ -41,6 +41,7 @@
     <string name="google_app_id" translatable="false">1:870675223294:android:4ebdba06ada9f9da918baf</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGk-x-29bdxr_gk8G20-CYSkqcM0NsSqo</string>
     <string name="google_storage_bucket" translatable="false">notes-a63d9.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="next">Next</string>
     <string name="password"/>
     <string name="pasword">Pasword</string>
