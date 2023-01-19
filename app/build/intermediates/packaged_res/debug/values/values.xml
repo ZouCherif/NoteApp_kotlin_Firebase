@@ -55,7 +55,7 @@
     <string name="title">Title</string>
     <string name="todo">TODO</string>
     <string name="welcome">Welcome</string>
-    <style name="Theme.Notes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Notes" parent="Theme.MaterialComponents.Light.NoActionBar">
         
 
         

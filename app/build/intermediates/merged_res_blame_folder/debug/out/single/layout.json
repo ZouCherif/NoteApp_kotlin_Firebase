@@ -1,62 +1,58 @@
 [
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_second.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_second.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_profile.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_main_screen.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_main_screen.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_sign_in.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_sign_in.xml"
     },
     {
         "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_main_screen.xml",
         "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\select_avatar.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\select_avatar.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_sign_up.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_add_note.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_add_note.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_second.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_sign_up.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_sign_up.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_modify_note.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_modify_note.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\note_card.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\note_card.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_add_note.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_add_note.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_third.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_third.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/select_avatar.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/select_avatar.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_modify_note.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_modify_note.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_settings.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_settings.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_forgot_password.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_profile.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/note_card.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/note_card.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_sign_in.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_sign_in.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_settings.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\fragment_pop_up.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\fragment_pop_up.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/fragment_pop_up.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/fragment_pop_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-mergeDebugResources-33:\\layout\\activity_forgot_password.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_forgot_password.xml"
+        "merged": "com.bdd.notes.app-mergeDebugResources-33:/layout/activity_third.xml",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_third.xml"
     }
 ]
