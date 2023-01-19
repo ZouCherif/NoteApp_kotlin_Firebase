@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
-INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
-INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
-INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\USUARIO\.gradle\caches\transforms-3\f31e6802c5ad419cbfd3137a8899bb35\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\USUARIO\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\USUARIO\.gradle\caches\transforms-3\09c39d7f560a748ccfe0d88466797139\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:2:1-20:12
@@ -61,27 +61,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USUARIO\.gradle\
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\2f499e3bb897c4c2e1b8b558dc3dda0a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\1dd490be5fdd26eaaa1a4ec3708d3310\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\USUARIO\.gradle\caches\transforms-3\1c3e76144efe1c6a4448127ca7603399\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
-INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
-INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
+INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
 	package
 		INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
 		INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
 		INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-104:12
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:1-107:12
 		INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:5:5-102:19
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:5:5-105:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\USUARIO\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\USUARIO\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\USUARIO\.gradle\caches\transforms-3\09c39d7f560a748ccfe0d88466797139\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
@@ -171,63 +171,67 @@ ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\sr
 	android:name
 		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:37:13-35
 activity#com.bdd.notes.Main_screen
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:43:9-49:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:46:13-56
 	android:exported
 		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
 		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:44:13-40
 activity#com.bdd.notes.Sign_in
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:50:9-62:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:52:9-64:20
 	android:exported
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:52:13-36
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:53:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:53:13-57:29
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:54:17-69
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:54:25-66
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:56:17-77
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:56:27-74
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:58:27-74
 activity#com.bdd.notes.Sign_up
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:63:9-69:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:65:9-71:20
 	android:exported
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:65:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:66:13-36
 activity#com.bdd.notes.Add_note
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:70:9-76:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:72:9-79:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:75:13-56
 	android:exported
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:72:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:74:13-37
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:71:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:73:13-37
 activity#com.bdd.notes.Profile
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:77:9-83:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:80:9-86:20
 	android:exported
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:78:13-36
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:81:13-36
 activity#com.bdd.notes.Settings
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:84:9-90:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:87:9-93:20
 	android:exported
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:86:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:89:13-37
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:85:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:88:13-37
 activity#com.bdd.notes.MainActivity
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:91:9-97:20
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:94:9-100:20
 	android:exported
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:93:13-37
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:96:13-37
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:92:13-41
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:95:13-41
 meta-data#preloaded_fonts
-ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:99:9-101:57
+ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:102:9-104:57
 	android:resource
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:101:13-54
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:104:13-54
 	android:name
-		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:100:13-43
+		ADDED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml:103:13-43
 uses-sdk
 INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\USUARIO\AndroidStudioProjects\NoteApp_kotlin_Firebase\app\src\main\AndroidManifest.xml

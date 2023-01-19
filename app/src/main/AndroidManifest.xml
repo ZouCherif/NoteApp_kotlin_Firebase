@@ -42,7 +42,9 @@
         </activity>
         <activity
             android:name=".Main_screen"
-            android:exported="false">
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing"
+            >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -69,7 +71,8 @@
         </activity>
         <activity
             android:name=".Add_note"
-            android:exported="false">
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

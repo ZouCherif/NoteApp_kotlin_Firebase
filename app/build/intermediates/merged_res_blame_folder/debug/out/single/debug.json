@@ -16,28 +16,28 @@
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_select_avatar.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\select_avatar.xml"
-    },
-    {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_sign_in.xml.flat",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_select_avatar.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\select_avatar.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_ic_baseline_navigate_next_24.xml.flat",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\ic_baseline_navigate_next_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_third.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_third.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_fragment_pop_up.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\fragment_pop_up.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_note_card_background.xml.flat",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\note_card_background.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_fragment_pop_up.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\fragment_pop_up.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_third.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_third.xml.flat",
@@ -50,10 +50,6 @@
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.bdd.notes.app-merged_res-34:/drawable_profile.xml.flat",
-        "source": "com.bdd.notes.app-main-36:/drawable/profile.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_modify_note.xml.flat",
@@ -100,12 +96,12 @@
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\drawable\\sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_modify_note.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_modify_note.xml"
-    },
-    {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-pngs-29:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_modify_note.xml.flat",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_modify_note.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\drawable_add_note.xml.flat",
@@ -130,6 +126,10 @@
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-main-36:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "com.bdd.notes.app-merged_res-34:/layout_activity_main_screen.xml.flat",
+        "source": "com.bdd.notes.app-main-36:/layout/activity_main_screen.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\7.4\\com.bdd.notes.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",

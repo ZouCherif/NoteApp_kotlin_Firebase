@@ -12,9 +12,9 @@ tools:context=".Main_screen" >
         android:id="@+id/SearchContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="24dp"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/noteRecyclerViewContainer"
         tools:layout_editor_absoluteX="0dp">
 
         <ImageView
@@ -43,7 +43,6 @@ tools:context=".Main_screen" >
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.709"
             tools:ignore="TextContrastCheck" />
 
@@ -56,6 +55,7 @@ tools:context=".Main_screen" >
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/SearchContainer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -112,7 +112,7 @@ tools:context=".Main_screen" >
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SearchContainer">
+        >
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/noteRecyclerView"

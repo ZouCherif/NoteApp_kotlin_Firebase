@@ -59,7 +59,8 @@
         </activity>
         <activity
             android:name="com.bdd.notes.Main_screen"
-            android:exported="false" >
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -86,7 +87,8 @@
         </activity>
         <activity
             android:name="com.bdd.notes.Add_note"
-            android:exported="false" >
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
