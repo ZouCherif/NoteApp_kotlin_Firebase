@@ -25,10 +25,11 @@
         app:layout_constraintVertical_bias="0.556" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Logout"
         android:layout_width="164dp"
         android:layout_height="58dp"
         android:background="#00FFFFFF"
-        android:text="@string/about"
+        android:text="Log out"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#7197FF"
@@ -39,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintVertical_bias="0.714" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Profile"

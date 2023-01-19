@@ -20,11 +20,15 @@ public final class ActivitySettingsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final AppCompatButton Logout;
+
+  @NonNull
   public final AppCompatButton Profile;
 
   private ActivitySettingsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton Profile) {
+      @NonNull AppCompatButton Logout, @NonNull AppCompatButton Profile) {
     this.rootView = rootView;
+    this.Logout = Logout;
     this.Profile = Profile;
   }
 
@@ -55,13 +59,19 @@ public final class ActivitySettingsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Logout;
+      AppCompatButton Logout = ViewBindings.findChildViewById(rootView, id);
+      if (Logout == null) {
+        break missingId;
+      }
+
       id = R.id.Profile;
       AppCompatButton Profile = ViewBindings.findChildViewById(rootView, id);
       if (Profile == null) {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((ConstraintLayout) rootView, Profile);
+      return new ActivitySettingsBinding((ConstraintLayout) rootView, Logout, Profile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

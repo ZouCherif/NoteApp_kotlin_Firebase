@@ -2721,6 +2721,7 @@ id CreateAccount
 id EmailTxt
 id FUNCTION
 id ForgotPass
+id Logout
 id META
 id NO_DEBUG
 id Profile
@@ -2807,6 +2808,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appCompatButton
 id arc
 id asConfigured
 id async
@@ -3193,6 +3195,7 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

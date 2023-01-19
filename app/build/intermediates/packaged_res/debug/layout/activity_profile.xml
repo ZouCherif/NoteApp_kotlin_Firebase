@@ -8,23 +8,7 @@
     tools:context=".Profile">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="211dp"
-        android:layout_height="59dp"
-        android:background="#00FFFFFF"
-        android:text="@string/save_changes"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#7197FF"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888"
-        tools:ignore="TextContrastCheck" />
-
-    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
         android:layout_width="132dp"
         android:layout_height="134dp"
         android:background="@drawable/avatars_accounts___man_male_people_person_shirt_hairstyle"
@@ -41,61 +25,11 @@
         app:layout_constraintVertical_bias="0.067"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <EditText
-        android:layout_width="244dp"
-        android:layout_height="55dp"
-        android:backgroundTint="#FFFFFF"
-        android:ems="10"
-        android:hint="Password"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.671"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661"
-        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
-
-    <EditText
-        android:layout_width="243dp"
-        android:layout_height="55dp"
-        android:backgroundTint="#FFFFFF"
-        android:hint="User name"
-        android:inputType="textEmailAddress"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.67"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
-        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:layout_width="243dp"
-        android:layout_height="55dp"
-        android:backgroundTint="#FFFFFF"
-        android:hint="Email address"
-        android:inputType="textEmailAddress"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
-
     <TextView
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/avatar"
+        android:text="User Information"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -103,7 +37,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="TextContrastCheck"
+        tools:text="User Information" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="249dp"
+        android:layout_height="40dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347" />
+
+    <TextView
+        android:id="@+id/EmailTxt"
+        android:layout_width="249dp"
+        android:layout_height="40dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
