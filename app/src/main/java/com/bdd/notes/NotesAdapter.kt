@@ -22,6 +22,12 @@ class NotesAdapter(val context: Context, val noteList: ArrayList<Note>): Recycle
         val currentNote = noteList[position]
         holder.title.text = currentNote.title
         holder.time.text = currentNote.time
+        if(currentNote.body?.length!! > 80){
+            val subbody= currentNote.body.substring(0, 49)
+            holder.body.text = "$subbody..."
+        }else{
+            holder.body.text = currentNote.body
+        }
         holder.itemView.setOnClickListener {
             val intent = Intent(context, modifyNote::class.java)
             intent.putExtra("body", currentNote.body)
@@ -32,7 +38,8 @@ class NotesAdapter(val context: Context, val noteList: ArrayList<Note>): Recycle
     }
 
     class NoteViewholder(itemView: View): RecyclerView.ViewHolder(itemView){
-        val title = itemView.findViewById<TextView>(R.id.title)
-        val time = itemView.findViewById<TextView>(R.id.time)
+        val title: TextView = itemView.findViewById(R.id.title)
+        val time: TextView = itemView.findViewById(R.id.time)
+        val body: TextView = itemView.findViewById(R.id.noteTxt)
     }
 }

@@ -49,8 +49,8 @@ class Main_screen : AppCompatActivity() {
                 for (postSnapshot in snapshot.children){
                     val currentNote = postSnapshot.getValue(Note::class.java)
                     noteList.add(currentNote!!)
-                    noteList.reverse()
                 }
+                noteList.reverse()
                 adapter.notifyDataSetChanged()
             }
 

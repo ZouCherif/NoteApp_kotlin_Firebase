@@ -3063,6 +3063,7 @@ id normal
 id north
 id noteRecyclerView
 id noteRecyclerViewContainer
+id noteTxt
 id notification_background
 id notification_main_column
 id notification_main_column_container

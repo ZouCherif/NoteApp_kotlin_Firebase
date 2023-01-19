@@ -3062,6 +3062,7 @@ int id normal 0x7f0a015c
 int id north 0x7f0a015d
 int id noteRecyclerView 0x7f0a015e
 int id noteRecyclerViewContainer 0x7f0a015f
+int id noteTxt 0x7f0a0217
 int id notification_background 0x7f0a0160
 int id notification_main_column 0x7f0a0161
 int id notification_main_column_container 0x7f0a0162

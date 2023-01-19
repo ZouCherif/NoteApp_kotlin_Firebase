@@ -69,6 +69,7 @@ id next1
 id next2
 id noteRecyclerView
 id noteRecyclerViewContainer
+id noteTxt
 id passtxt
 id password
 id passwordcontainer
